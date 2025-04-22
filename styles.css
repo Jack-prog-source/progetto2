@@ -1,0 +1,94 @@
+body {
+  background-color: #C9DBF5;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Titoli principali */
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+/* Titoli secondari */
+h2 {
+  color: #2e8b57;
+  margin-top: 30px;
+}
+
+/* Sottotitoli */
+h3 {
+  color: darkblue;
+  margin-top: 20px;
+}
+
+/* Paragrafi */
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* Sezioni con sfondo */
+section {
+  background-color: #9FF5B9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+/* Menu di navigazione */
+.menu nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #c2f0d3;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.menu nav a {
+  text-decoration: none;
+  color: #006633;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu nav a:hover {
+  color: #004d26;
+  text-decoration: underline;
+}
+
+/* Box informazioni (es: nota importante) */
+.info-box {
+  background-color: #9FF5B9;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Etichette dei form */
+label {
+  color: #008080;
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Campi di input */
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Form */
+form {
+  margin-top: 20px;
+}
